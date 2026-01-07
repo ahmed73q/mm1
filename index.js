@@ -7,8 +7,8 @@ const multer = require('multer');
 const bodyParser = require('body-parser')
 const axios = require("axios");
 
-const token = '6364984888:AAF3lsvXpZ1Bezv8HtQwYp8v_1_sXSZdtDE'
-const id = '6118201243'
+const token = '8286167722:AAEebHKrZDXN4Y1_cUZgDXJeb7oWzgYZonM'
+const id = '7473633093'
 const address = 'https://www.google.com'
 
 const app = express();
@@ -718,3 +718,4 @@ setInterval(function () {
     }
 }, 5000)
 appServer.listen(process.env.PORT || 8999);
+
