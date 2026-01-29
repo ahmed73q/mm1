@@ -1,25 +1,24 @@
 {
-  "name": "doge",
-  "version": "1.0.0",
-  "description": "Track Down People just through a link",
+  "name": "devil",
+  "version": "2.0.0",
+  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
-   },
-  "keywords": [],
-  "author": {
-   "name" : "Prateek Chaubey",
-   "url" : "https://git.io/prateek"
+  "engines": {
+    "node": "16.13.2"
   },
-  "license": "MIT",
+  "scripts": {
+    "start": "npm start"
+  },
+  "keywords": [],
+  "author": "l",
+  "license": "ISC",
   "dependencies": {
-    "base64-to-image": "^1.0.2",
-    "body-parser": "^1.20.1",
-    "ejs": "^3.1.8",
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "node-fetch": "^2.2.6",
-    "node-telegram-bot-api": "^0.60.0"
+    "body-parser": "^1.19.1",
+    "express": "latest",
+    "multer": "^1.4.4",
+    "node-telegram-bot-api": "latest",
+    "uuid": "^8.3.2",
+    "ws": "latest",
+    "axios": "^0.26.1"
   }
 }
